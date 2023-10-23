@@ -23,6 +23,26 @@ body {
     position: absolute;
 }
 
+#CenterDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#Title {
+    width: 32.15%;
+    margin-top: 4%;
+    scale: 300%;
+    text-align: center;
+    outline: none;
+    border-style: none;
+    background-color: #feff9c;
+}
+
+#EditableText {
+    outline: none;
+    margin-top: 2%;
+}
+
 @media screen and (max-height: 720px) {
     #NavigationDiv {
         background-color: black;
