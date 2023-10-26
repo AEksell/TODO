@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -9,11 +11,11 @@ body {
     height: 7vh;
     position: fixed;
     text-align: center;
-    background-color: dimgray;
+    background-color: #D4FF9C;
 }
 
 #NavigationDiv span {
-    color: whitesmoke;
+    color: black;
     position: relative;
     scale: 160%;
     margin-top: 1%;
@@ -29,18 +31,14 @@ body {
     box-shadow: 10px 10px 5px #bbbc83;
     border-style: none;
     width: 75%;
-    height: 90%;
+    height:90%;
     transform: translateX(15%);
     margin-top: 7.5vmin;
     position: absolute;
 }
 
-#CenterDiv {
-    display: flex;
-    justify-content: center;
-}
-
 #Title {
+    font-family: "Playpen sans", sans-serif;
     width: 32.15%;
     margin-top: 4%;
     scale: 300%;
@@ -50,9 +48,49 @@ body {
     background-color: #feff9c;
 }
 
+#CenterDiv {
+    display: flex;
+    justify-content: center;
+}
+
 #EditableText {
     outline: none;
     margin-top: 2%;
+}
+
+#AddTask {
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    display: block;
+
+    position: fixed;
+    height: 20px;
+    width: 20px;
+
+    font: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 0.2%;
+
+    border-radius: 50%;
+    border: 1px solid;
+    
+    margin-top: 3.5%;
+    margin-left: 5%;
+}
+
+#TaskDiv {
+    height: 2vmax;
+}
+
+.TaskText {
+    outline: none;
+    font-family: "Playpen sans", sans-serif;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 @media screen and (max-width: 720px) {
