@@ -25,6 +25,17 @@ body {
     user-select: none;
 }
 
+#NavigationDiv span {
+    color: whitesmoke;
+    position: relative;
+    scale: 160%;
+    margin-top: 1%;
+    margin-left: 3%;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
 #MainDiv {
     background-color: #feff9c;
     border-radius: 0px;
