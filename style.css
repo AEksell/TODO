@@ -19,7 +19,7 @@ body {
     position: relative;
     scale: 160%;
     margin-top: 1%;
-    margin-left: 3%;
+    margin-left: 10%;
     display: inline-block;
     cursor: pointer;
     user-select: none;
@@ -85,13 +85,24 @@ body {
 }
 
 .TaskText {
+    scale: 120%;
     outline: none;
     font-family: "Playpen sans", sans-serif;
     margin-top: 55px;
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin-left: 25%;
+    width: 50%;
 }
+
+.UnChecked {
+    cursor: pointer;
+    display: block;
+    width: 2%;
+    margin-top: -2.1%;
+    margin-left: 1.6%;
+}
+
 
 @media screen and (max-width: 720px) {
     #NavigationDiv {
@@ -137,4 +148,8 @@ body {
     #MainDiv {
         margin-top: 15%;
     }
-}
+
+    .UnChecked {
+        width: 5%;
+    }
+}   
